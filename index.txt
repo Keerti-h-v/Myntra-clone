@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Myntra Login Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="myntra-login">
+            <form>
+                <img src="myntra.jpg">
+                <h1 class="heading">
+                Welcome To India's Largest Online Fashion Store  
+                </h1>
+
+                <h6> please login to your account </h6>
+
+                <label> Email Id</label>
+                <input type="text">
+
+                <label> Password </label>
+                <input type="password"> 
+
+                <div class="forgot">
+                    <label><input type="checkbox">keep me signed in</label>
+
+                    <a>Forgot password?</a>
+                </div>
+
+                <button class="login"> Login </button>
+                <button class="signup"> Signup </button>
+            </form>
+
+        <div class="poster"> 
+        </div>
+        </div>
+        <script src= "https://code.jquery.com/jquery-3.7.1.js” ></script>
+        </script>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
